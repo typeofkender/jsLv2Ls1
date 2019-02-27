@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    outline: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 70px;
+    border-radius: 8px;
+    background: white;
+}
+
+.btn-cart {
+    margin: 10px;
+}
+
+.products {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    height: 200px;
+    width: 10%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.productName {
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.product-item > button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+}
